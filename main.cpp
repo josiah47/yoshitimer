@@ -1,15 +1,15 @@
-#include <QApplication>
-
-#include "yoshitimer.h"
+#include <QtGui/QApplication>
+#include "mainwindow.h"
+#include <QDebug>
 
 int main(int argc, char *argv[])
 {
-    QApplication app(argc, argv);
-    app.setApplicationName("Yoshi Timer");
-    app.setApplicationVersion("1.0");
-    app.setOrganizationName("Nijenhuis");
-    app.setOrganizationDomain("nijenhuis.ca");
-    yoshitimer YoshiTimer;
-    YoshiTimer.show();
-    return app.exec();
+    QApplication a(argc, argv);
+
+    QCoreApplication::setApplicationName("YoshiTimer");
+
+    MainWindow w;
+    w.show();
+
+    return a.exec();
 }

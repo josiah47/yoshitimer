@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<xml version="1.0">
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Band Press</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Box Jump</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Band Row</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Step up</description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:03</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Step up</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Bench dip</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Weighted Walking Lunges</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:20</time>
+        <description>Tricep Extension behind head</description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:03</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:20</time>
+        <description>Tricep Extension behind head</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Toe Touch (Ab crunch)</description>
+    </exercise>
+        <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:20</time>
+        <description>One arm standing curl</description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:03</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:20</time>
+        <description>One arm standing curl</description>
+    </exercise>
+	<exercise>
+        <id>2</id>
+        <action>Superset Rest</action>
+        <time>00:30</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Band Press</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Box Jump</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Band Row</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Step up</description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:03</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Step up</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Bench dip</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Weighted Walking Lunges</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:20</time>
+        <description>Tricep Extension behind head</description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:03</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:20</time>
+        <description>Tricep Extension behind head</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Toe Touch (Ab crunch)</description>
+    </exercise>
+        <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:20</time>
+        <description>One arm standing curl</description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:03</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:20</time>
+        <description>One arm standing curl</description>
+    </exercise>
+	<exercise>
+        <id>2</id>
+        <action>Superset Rest</action>
+        <time>00:30</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Band Press</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Box Jump</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Band Row</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Step up</description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:03</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Step up</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Bench dip</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Weighted Walking Lunges</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:20</time>
+        <description>Tricep Extension behind head</description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:03</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:20</time>
+        <description>Tricep Extension behind head</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Toe Touch (Ab crunch)</description>
+    </exercise>
+        <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:20</time>
+        <description>One arm standing curl</description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:03</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:20</time>
+        <description>One arm standing curl</description>
+    </exercise>
+	<exercise>
+        <id>2</id>
+        <action>Superset Rest</action>
+        <time>00:30</time>
+        <description></description>
+    </exercise>
+</xml>

@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<xml version="1.0">
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Ball Pushups (feet on the ball)</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Band Squat and Press</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Standing Bent Over Pull Down</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Hamstring curl on ball</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Kneeling Tricep Pressdown</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Bicep curl</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Ball Transfer</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Alternating Superman</description>
+    </exercise>
+	<exercise>
+        <id>2</id>
+        <action>Superset Rest</action>
+        <time>00:30</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Ball Pushups (feet on the ball)</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Band Squat and Press</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Standing Bent Over Pull Down</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Hamstring curl on ball</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Kneeling Tricep Pressdown</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Bicep curl</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Ball Transfer</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Alternating Superman</description>
+    </exercise>
+	<exercise>
+        <id>2</id>
+        <action>Superset Rest</action>
+        <time>00:30</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Ball Pushups (feet on the ball)</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Band Squat and Press</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Standing Bent Over Pull Down</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Hamstring curl on ball</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Kneeling Tricep Pressdown</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Bicep curl</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Ball Transfer</description>
+    </exercise>
+    <exercise>
+        <id>1</id>
+        <action>Set Rest</action>
+        <time>00:20</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>0</id>
+        <action>Get Ready</action>
+        <time>00:10</time>
+        <description></description>
+    </exercise>
+    <exercise>
+        <id>3</id>
+        <action>Work</action>
+        <time>00:30</time>
+        <description>Alternating Superman</description>
+    </exercise>
+	<exercise>
+        <id>2</id>
+        <action>Superset Rest</action>
+        <time>00:30</time>
+        <description></description>
+    </exercise>
+</xml>
