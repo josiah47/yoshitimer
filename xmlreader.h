@@ -3,6 +3,8 @@
 
 #include <QIcon>
 #include <QXmlStreamReader>
+#include <QTreeWidget>
+#include <QTreeWidgetItem>
 
 QT_BEGIN_NAMESPACE
 class QTreeWidget;
@@ -22,11 +24,11 @@ private:
     QMap<QString, QColor> itemColorsXML;
 
     void readXML();
-    void readExercise(QTreeWidgetItem *item);
+    void readExercise();
 
     QXmlStreamReader xml;
     QTreeWidget *treeWidget;
-    QTreeWidgetItem *createChildItem(QTreeWidgetItem *item);
+    QTreeWidgetItem * createChildItem();
 };
 
 #endif

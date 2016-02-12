@@ -36,17 +36,17 @@ void XmlReader::readXML()
 
     while (xml.readNextStartElement()) {
         if (xml.name() == "exercise")
-            readExercise(0);
+            readExercise();
         else
             xml.skipCurrentElement();
     }
 }
 
-void XmlReader::readExercise(QTreeWidgetItem *item)
+void XmlReader::readExercise()
 {
     Q_ASSERT(xml.isStartElement() && xml.name() == "exercise");
 
-    QTreeWidgetItem *exercise = createChildItem(item);
+    QTreeWidgetItem *exercise = createChildItem();
 
     while (xml.readNextStartElement()) {
         if (xml.name() == "id") {
@@ -75,14 +75,9 @@ void XmlReader::readExercise(QTreeWidgetItem *item)
     }
 }
 
-QTreeWidgetItem *XmlReader::createChildItem(QTreeWidgetItem *item)
+QTreeWidgetItem* XmlReader::createChildItem()
 {
-    QTreeWidgetItem *childItem;
-    if (item) {
-       childItem = new QTreeWidgetItem(item);
-    } else {
-       childItem = new QTreeWidgetItem(treeWidget);
-    }
+    QTreeWidgetItem * childItem = new QTreeWidgetItem(treeWidget);
     childItem->setData(0, Qt::UserRole, xml.name().toString());
     childItem->setFlags(Qt::ItemIsSelectable | Qt::ItemIsDragEnabled | Qt::ItemIsEditable | Qt::ItemIsEnabled);
     return childItem;

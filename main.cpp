@@ -1,13 +1,12 @@
-#include <QtGui/QApplication>
 #include "mainwindow.h"
-#include <QDebug>
+#include <QApplication>
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
 
+    QCoreApplication::setOrganizationName("NITSER");
     QCoreApplication::setApplicationName("YoshiTimer");
-
     MainWindow w;
     w.show();
 

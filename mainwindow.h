@@ -5,9 +5,7 @@
 #include <QTime>
 #include <QTimer>
 #include <QMap>
-
-#include <phonon/mediaobject.h>
-#include <phonon/audiooutput.h>
+#include <QSound>
 
 namespace Ui {
     class MainWindow;
@@ -25,10 +23,10 @@ private:
     QMap<QString,   int> workQueueTypes;
     QMap<QString,   QColor> itemColors;
     Ui::MainWindow  *ui;
+    void            readSettings();
+    void            writeSettings();
     void            setUpGUI();
 
-    Phonon::MediaObject* mMediaObject;
-    Phonon::AudioOutput* mAudioOutput;
     void            playSound(int index);
 
     QAction         *actionDuplicate;

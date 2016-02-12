@@ -2,6 +2,8 @@
 #define XMLWRITER_H
 
 #include <QXmlStreamWriter>
+#include <QTreeWidget>
+#include <QTreeWidgetItem>
 
 QT_BEGIN_NAMESPACE
 class QTreeWidget;

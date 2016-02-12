@@ -3,6 +3,7 @@
 #include "xmlreader.h"
 #include "xmlwriter.h"
 
+#include <QSettings>
 #include <QDebug>
 #include <QTreeWidget>
 #include <QTreeWidgetItem>
@@ -13,18 +14,15 @@ MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
+    readSettings();
+    QSound::play(QDir::homePath().append("/yoshitimer/sounds/yoshitimer.wav"));
     ui->setupUi(this);
     setUpGUI();
-
-    // Setup sound
-    mMediaObject = new Phonon::MediaObject(this);
-    mAudioOutput = new Phonon::AudioOutput(Phonon::MusicCategory, this);
-    mAudioOutput->setVolume(1);
-    Phonon::createPath(mMediaObject, mAudioOutput);
 }
 
 MainWindow::~MainWindow()
 {
+    writeSettings();
     delete ui;
 }
 
@@ -139,28 +137,27 @@ void MainWindow::playSound(int index)
 {
     switch ( index ) {
         case 0:
-            mMediaObject->setCurrentSource(QString("./sounds/getready.wav") );
+             QSound::play(QDir::homePath().append("/yoshitimer/sounds/getready.wav"));
             break;
         case 1:
-            mMediaObject->setCurrentSource(QString("./sounds/setcompleted.wav") );
+             QSound::play(QDir::homePath().append("/yoshitimer/sounds/setcompleted.wav"));
             break;
         case 2:
-            mMediaObject->setCurrentSource(QString("./sounds/supersetcompleted.wav") );
+             QSound::play(QDir::homePath().append("/yoshitimer/sounds/supersetcompleted.wav"));
             break;
         case 3:
-            mMediaObject->setCurrentSource(QString("./sounds/work.wav") );
+             QSound::play(QDir::homePath().append("/yoshitimer/sounds/work.wav"));
             break;
        case 4:
-            mMediaObject->setCurrentSource(QString("./sounds/youaredoneeverything.wav") );
+             QSound::play(QDir::homePath().append("/yoshitimer/sounds/youaredoneeverything.wav"));
             break;
         case 5:
-             mMediaObject->setCurrentSource(QString("./sounds/buzzer.wav") );
-             break;
+             QSound::play(QDir::homePath().append("/yoshitimer/sounds/buzzer.wav"));
+            break;
        default:
-            mMediaObject->setCurrentSource(QString("./sounds/youaredoneeverything.wav") );
+             QSound::play(QDir::homePath().append("/yoshitimer/sounds/youaredoneeverything.wav"));
             break;
     }
-    mMediaObject->play();
 }
 
 void MainWindow::duplicateRow()
@@ -318,10 +315,16 @@ void MainWindow::on_actionSave_As_triggered()
 
 void MainWindow::on_actionOpen_triggered()
 {
-    QString fileName = QFileDialog::getOpenFileName(this, tr("Open Exercise File"),QDir::currentPath(),tr("XML Files (*.xml)"));
+    QSettings settings;
+    QByteArray lastFolderLocation = settings.value("MainWindow/openFileFolder").toByteArray();
+    QFileDialog fileDialog;
+    fileDialog.restoreState(lastFolderLocation);
+    QString fileName = fileDialog.getOpenFileName(this, tr("Open Exercise File"),"",tr("XML Files (*.xml)"));
     if (fileName.isEmpty()) {
         return;
     }
+
+    settings.setValue("MainWindow/openFileFolder", fileDialog.saveState());
     ui->workQueue->clear();
 
     QFile file(fileName);
@@ -372,7 +375,7 @@ void MainWindow::workQueue()
     // If item is last item call stop
     if ( firstQueuedItem == ui->workQueue->topLevelItemCount()) {
         on_pushButtonStop_clicked();
-        playSound(3);
+        playSound(4);
     } else {
         secTimer->stop();
         workTimer->stop();
@@ -458,4 +461,24 @@ void MainWindow::calculateTimes()
 
     QString timeRemainingText = timeRemaining.toString("hh:mm:ss");
     ui->lcdNumber_timeRemaining->display(timeRemainingText);
+}
+
+void MainWindow::writeSettings()
+{
+    QSettings settings;
+
+    settings.beginGroup("MainWindow");
+    settings.setValue("size", size());
+    settings.setValue("pos", pos());
+    settings.endGroup();
+}
+
+void MainWindow::readSettings()
+{
+    QSettings settings;
+
+    settings.beginGroup("MainWindow");
+    resize(settings.value("size", QSize(400, 400)).toSize());
+    move(settings.value("pos", QPoint(200, 200)).toPoint());
+    settings.endGroup();
 }
